@@ -93,11 +93,17 @@ Backend: Node.js
 Database: Firebase Firestore (NoSQL)
 Authentication: Firebase Authentication
 Deployment: Google Cloud Platform (GCP)
+
 **Contributors**
-**This project was developed by Team 4:**
+
+**This project was developed by:**
 
 Bhanu Teja Panguluri
+
 Pranathi Vadrevu
+
 Revanth Maturu
+
 Sudhanshu Dubey
+
 Tarang Nair
