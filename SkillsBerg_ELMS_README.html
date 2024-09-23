@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillsBerg ELMS - README</title>
+</head>
+<body>
+    <h1>SkillsBerg ELMS (Educational Learning Management System)</h1>
+
+    <h2>Project Overview</h2>
+    <p>SkillsBerg ELMS is a comprehensive educational learning management system designed to facilitate language learning through a structured, immersive, and user-friendly platform. The system enables users to enroll in courses, manage course content, take quizzes and assignments, and interact with instructors. It supports multiple user roles, including students, instructors, and administrators, while ensuring secure and reliable operations.</p>
+
+    <h2>Table of Contents</h2>
+    <ul>
+        <li><a href="#project-overview">Project Overview</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#architecture">Architecture</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#usage">Usage</a></li>
+        <li><a href="#technologies-used">Technologies Used</a></li>
+        <li><a href="#contributors">Contributors</a></li>
+    </ul>
+
+    <h2 id="features">Features</h2>
+    <ul>
+        <li><strong>User Registration & Login</strong>: Secure user registration and login system for students, instructors, and administrators.</li>
+        <li><strong>Course Enrollment</strong>: Students can browse and enroll in language courses.</li>
+        <li><strong>Course Management</strong>: Instructors can manage course content, assignments, and quizzes.</li>
+        <li><strong>Quiz and Assignment Management</strong>: Support for creating, submitting, and grading quizzes and assignments.</li>
+        <li><strong>User Roles and Access Control</strong>: Role-based access control to ensure users access only relevant features based on their roles.</li>
+        <li><strong>Progress Tracking</strong>: Allows students to track their course progress, assignment submissions, and quiz scores.</li>
+        <li><strong>Support System</strong>: Includes a user support interface for assistance with technical or course-related issues.</li>
+    </ul>
+
+    <h2 id="architecture">Architecture</h2>
+    <p>The SkillsBerg ELMS is built on a modular architecture, following principles like Single Responsibility and Open/Closed. The system is designed to scale easily, providing a reliable and adaptable platform for language learning.</p>
+    <ul>
+        <li><strong>Frontend</strong>: Built using React.js for flexibility and dynamic user interaction.</li>
+        <li><strong>Backend</strong>: Powered by Node.js for scalability, handling user management, course management, and other server-side operations.</li>
+        <li><strong>Database</strong>: Firebase (NoSQL) is used for real-time data management and easy backend integration.</li>
+        <li><strong>Authentication</strong>: User authentication and authorization are handled securely using role-based access control mechanisms.</li>
+    </ul>
+
+    <h2 id="installation">Installation</h2>
+    <p>To run this project locally, follow these steps:</p>
+    <ol>
+        <li>Clone the repository:</li>
+        <pre><code>git clone https://github.com/your-repo/skillsberg-elms.git
+cd skillsberg-elms</code></pre>
+        <li>Install dependencies:</li>
+        <pre><code>npm install</code></pre>
+        <li>Set up Firebase:
+            <ul>
+                <li>Create a Firebase project.</li>
+                <li>Set up Firebase Firestore and Authentication.</li>
+                <li>Configure Firebase credentials in the project.</li>
+            </ul>
+        </li>
+        <li>Start the development server:</li>
+        <pre><code>npm start</code></pre>
+        <li>Access the app in your browser at <a href="http://localhost:3000">http://localhost:3000</a>.</li>
+    </ol>
+
+    <h2 id="usage">Usage</h2>
+    <p><strong>For Students</strong>:</p>
+    <ul>
+        <li>Register and log in to browse available courses.</li>
+        <li>Enroll in a course, access materials, and submit assignments.</li>
+        <li>Track progress, view deadlines, and communicate with instructors.</li>
+    </ul>
+    <p><strong>For Instructors</strong>:</p>
+    <ul>
+        <li>Manage course content, quizzes, and assignments.</li>
+        <li>Track students' progress and provide feedback.</li>
+    </ul>
+    <p><strong>For Administrators</strong>:</p>
+    <ul>
+        <li>Manage users, handle course catalogs, and maintain overall system security and performance.</li>
+    </ul>
+
+    <h2 id="technologies-used">Technologies Used</h2>
+    <ul>
+        <li><strong>Frontend</strong>: React.js</li>
+        <li><strong>Backend</strong>: Node.js</li>
+        <li><strong>Database</strong>: Firebase Firestore (NoSQL)</li>
+        <li><strong>Authentication</strong>: Firebase Authentication</li>
+        <li><strong>Deployment</strong>: Google Cloud Platform (GCP)</li>
+    </ul>
+
+    <h2 id="contributors">Contributors</h2>
+    <p>This project was developed by Team 4:</p>
+    <ul>
+        <li>Bhanu Teja Panguluri</li>
+        <li>Pranathi Vadrevu</li>
+        <li>Revanth Maturu</li>
+        <li>Sudhanshu Dubey</li>
+        <li>Tarang Nair</li>
+    </ul>
+</body>
+</html>
